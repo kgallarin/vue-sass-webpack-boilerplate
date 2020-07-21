@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700&display=swap");
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('~@fonts/Bariol/Bariol-Light.woff2') format('woff2'),
+        url('~@fonts/Bariol/Bariol-Light.woff') format('woff'),
+        url('~@fonts/Bariol/Bariol-Light.ttf') format('truetype');
+        font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('~@fonts/Bariol/Bariol-Bold.woff2') format('woff2'),
+        url('~@fonts/Bariol/Bariol-Bold.woff') format('woff'),
+        url('~@fonts/Bariol/Bariol-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('~@fonts/Bariol/Bariol.woff2') format('woff2'),
+        url('~@fonts/Bariol/Bariol.woff') format('woff'),
+        url('~@fonts/Bariol/Bariol.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('~@fonts/Bariol/Bariol-Thin.woff2') format('woff2'),
+        url('~@fonts/Bariol/Bariol-Thin.woff') format('woff'),
+        url('~@fonts/Bariol/Bariol-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+$base: 16px;
+$font-xxlg: 67px;
+$font-xlg: 50px;
+$font-lg: 28px;
+$font-xmd: 24px;
+$font-md: 21px;
+$font-sm: 17px;
+$font-xsm: 16px;
+$font-xxsm: 14px;
+$font-xxxsm: 13px;
+$font-smallest: 10px;
+
+// Typography
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Bariol", sans-serif;
